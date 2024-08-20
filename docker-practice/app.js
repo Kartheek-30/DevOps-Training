@@ -6,7 +6,9 @@ function timer(){
             console.log(i);
          }, i*1000);
     }
-    console.log("30 seconds completed!")
+    setTimeout(() => {
+        console.log("30 seconds completed!");
+    }, 30000);
 }
 
 timer();
